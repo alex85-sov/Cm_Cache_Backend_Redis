@@ -16,6 +16,9 @@
             "role": "Developer"
         }
     ],
+    "require":{
+        "colinmollenhour/credis": "1.2"
+    },
     "suggest":{
         "magento-hackathon/magento-composer-installer":"required for Magento Installation for Unittests"
     },
