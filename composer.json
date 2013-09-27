@@ -1,15 +1,22 @@
 {
-    "name":"colinmollenhour/cache-backend-redis",
-    "type":"magento-module",
+    "name":"flagbit/cache-backend-redis",
+    "type":"library",
     "license":"BSD-3-Clause",
-    "homepage":"https://github.com/colinmollenhour/Cm_Cache_Backend_Redis",
+    "homepage":"https://github.com/Flagbit/Cm_Cache_Backend_Redis",
     "description":"Zend_Cache backend using Redis with full support for tags.",
-    "authors":[
+    "authors": [
         {
-            "name":"Colin Mollenhour"
+            "name": "Colin Mollenhour",
+            "role": "Developer"
+        },
+        {
+            "name": "Ruben Beglaryan",
+            "email": "ruben.beglaryan@flagbit.de",
+            "homepage": "http://www.flagbit.de",
+            "role": "Developer"
         }
     ],
-    "require":{
-        "magento-hackathon/magento-composer-installer":"*"
+    "suggest":{
+        "magento-hackathon/magento-composer-installer":"required for Magento Installation for Unittests"
     }
 }
